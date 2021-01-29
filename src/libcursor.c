@@ -14,10 +14,11 @@
 
 #include <acfutils/assert.h>
 #include <acfutils/cursor.h>
+#include <acfutils/helpers.h>
 
 #include "libcursor.h"
 
-static const char *cursor_filenames[NUM_UTIL_CURSORS] = {
+static const char *cursor_filenames[NUM_LIBCURSORS] = {
     [LIBCURSOR_HAND_INDEX] = "cursor_click.png",
     [LIBCURSOR_ARROW_UP] = "cursor_up.png",
     [LIBCURSOR_ARROW_DOWN] = "cursor_down.png",
@@ -35,7 +36,7 @@ static const char *cursor_filenames[NUM_UTIL_CURSORS] = {
     [LIBCURSOR_WHEEL_LARGE_RIGHT] = "cursor_wheel_large_right.png"
 };
 
-static cursor_t *cursors[NUM_UTIL_CURSORS] = { NULL };
+static cursor_t *cursors[NUM_LIBCURSORS] = { NULL };
 
 static char *datadir = NULL;
 

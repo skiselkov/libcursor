@@ -43,7 +43,7 @@ typedef enum {
 void libcursor_init(const char *datadir);
 void libcursor_fini(void);
 
-bool libcursor_set(util_cursor_t cursor);
+bool libcursor_set(libcursor_t cursor);
 
 #ifdef __cplusplus
 }
