@@ -20,6 +20,8 @@
 
 static const char *cursor_filenames[NUM_LIBCURSORS] = {
     [LIBCURSOR_HAND_INDEX] = "cursor_click.png",
+    [LIBCURSOR_HAND_OPEN] = "cursor_grab_open.png",
+    [LIBCURSOR_HAND_CLOSED] = "cursor_grab_closed.png",
     [LIBCURSOR_ARROW_UP] = "cursor_up.png",
     [LIBCURSOR_ARROW_DOWN] = "cursor_down.png",
     [LIBCURSOR_ARROW_LEFT] = "cursor_left.png",

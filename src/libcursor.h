@@ -23,6 +23,8 @@ extern "C" {
 
 typedef enum {
 	LIBCURSOR_HAND_INDEX,		/* hand with index finger extended */
+	LIBCURSOR_HAND_OPEN,		/* open hand with all fingers ext'd */
+	LIBCURSOR_HAND_CLOSED,		/* closed hand */
 	LIBCURSOR_ARROW_UP,		/* arrow pointing up */
 	LIBCURSOR_ARROW_DOWN,		/* arrow pointing down */
 	LIBCURSOR_ARROW_LEFT,		/* arrow pointing left */
