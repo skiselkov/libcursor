@@ -35,10 +35,10 @@ typedef enum {
 	LIBCURSOR_WHEEL_SMALL_LEFT,	/* small mouse wheel + left arrow */
 	LIBCURSOR_WHEEL_SMALL_RIGHT,	/* small mouse wheel + right arrow */
 	LIBCURSOR_WHEEL_LARGE,		/* mouse wheel large */
-	LIBCURSOR_WHEEL_LARGE_UP,	/* small mouse wheel + up arrow */
-	LIBCURSOR_WHEEL_LARGE_DOWN,	/* small mouse wheel + down arrow */
-	LIBCURSOR_WHEEL_LARGE_LEFT,	/* small mouse wheel + left arrow */
-	LIBCURSOR_WHEEL_LARGE_RIGHT,	/* small mouse wheel + right arrow */
+	LIBCURSOR_WHEEL_LARGE_UP,	/* large mouse wheel + up arrow */
+	LIBCURSOR_WHEEL_LARGE_DOWN,	/* large mouse wheel + down arrow */
+	LIBCURSOR_WHEEL_LARGE_LEFT,	/* large mouse wheel + left arrow */
+	LIBCURSOR_WHEEL_LARGE_RIGHT,	/* large mouse wheel + right arrow */
 	NUM_LIBCURSORS
 } libcursor_t;
 
