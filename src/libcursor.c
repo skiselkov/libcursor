@@ -27,10 +27,10 @@ static const char *cursor_filenames[NUM_LIBCURSORS] = {
     [LIBCURSOR_WHEEL_SMALL_LEFT] = "cursor_wheel_left.png",
     [LIBCURSOR_WHEEL_SMALL_RIGHT] = "cursor_wheel_right.png",
     [LIBCURSOR_WHEEL_LARGE] = "cursor_wheel_large.png",
-    [LIBCURSOR_WHEEL_LARGE_UP] = "cursor_wheel_up_large.png",
-    [LIBCURSOR_WHEEL_LARGE_DOWN] = "cursor_wheel_down_large.png",
-    [LIBCURSOR_WHEEL_LARGE_LEFT] = "cursor_wheel_left_large.png",
-    [LIBCURSOR_WHEEL_LARGE_RIGHT] = "cursor_wheel_right_large.png"
+    [LIBCURSOR_WHEEL_LARGE_UP] = "cursor_wheel_large_up.png",
+    [LIBCURSOR_WHEEL_LARGE_DOWN] = "cursor_wheel_large_down.png",
+    [LIBCURSOR_WHEEL_LARGE_LEFT] = "cursor_wheel_large_left.png",
+    [LIBCURSOR_WHEEL_LARGE_RIGHT] = "cursor_wheel_large_right.png"
 };
 
 static cursor_t *cursors[NUM_LIBCURSORS] = { NULL };
